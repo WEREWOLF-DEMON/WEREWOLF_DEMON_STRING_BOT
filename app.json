@@ -11,7 +11,7 @@
         "pyrogram",
         "telethon"
     ],
-    "repository": "https://github.com/TeamEspro/EsproStringBot",
+    "repository": "https://github.com/WEREWOLF-DEMON/WEREWOLF_DEMON_STRING_BOT",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
