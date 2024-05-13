@@ -1,0 +1,48 @@
+{
+    "name": "𝐖𝐄𝐑𝐄𝐖𝐎𝐋𝐅_𝐃𝐄𝐌𝐎𝐍_𝐒𝐓𝐑𝐈𝐍𝐆_𝐁𝐎𝐓💞👹",
+    "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+    "logo": "https://telegra.ph/file/ef21316100bcabf2c6d5d.jpg",
+    "keywords": [
+        "python3",
+        "telegram",
+        "session",
+        "stringbot",
+        "telegram-bot",
+        "pyrogram",
+        "telethon"
+    ],
+    "repository": "https://github.com/TeamEspro/EsproStringBot",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Fill your user id here. (Must be integer)",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get this value from cloud.mongodb.com",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }
