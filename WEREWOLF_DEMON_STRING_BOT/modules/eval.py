@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import OWNER_ID
-from WEREWOLF_DEMON_STRING import Anony
+from WEREWOLF_DEMON_STRING_BOT import Anony
 
 
 async def aexec(code, client, message):
