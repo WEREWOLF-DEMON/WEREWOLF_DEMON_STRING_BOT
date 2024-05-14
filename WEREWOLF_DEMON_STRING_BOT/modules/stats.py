@@ -2,8 +2,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import OWNER_ID
-from WEREWOLF_DEMON_STRING import Anony
-from WEREWOLF_DEMON_STRING.utils import get_served_users
+from WEREWOLF_DEMON_STRING_BOT import Anony
+from WEREWOLF_DEMON_STRING_BOT.utils import get_served_users
 
 
 @Anony.on_message(filters.command(["stats", "users"]) & filters.user(OWNER_ID))
