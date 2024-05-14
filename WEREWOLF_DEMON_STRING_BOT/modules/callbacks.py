@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery
 
-from WEREWOLF_DEMON_STRING import Anony
-from WEREWOLF_DEMON_STRING.utils import gen_key
-from WEREWOLF_DEMON_STRING.modules.gen import gen_session
+from WEREWOLF_DEMON_STRING_BOT import Anony
+from WEREWOLF_DEMON_STRING_BOT.utils import gen_key
+from WEREWOLF_DEMON_STRING_BOT.modules.gen import gen_session
 
 
 @Anony.on_callback_query(
