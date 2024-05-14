@@ -3,8 +3,8 @@ import importlib
 
 from pyrogram import idle
 
-from WEREWOLF_DEMON_STRING import LOGGER, Anony
-from WEREWOLF_DEMON_STRING.modules import ALL_MODULES
+from WEREWOLF_DEMON_STRING_BOT import LOGGER, Anony
+from WEREWOLF_DEMON_STRING_BOT.modules import ALL_MODULES
 
 
 async def anony_boot():
