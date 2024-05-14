@@ -15,7 +15,7 @@ async def anony_boot():
         quit(1)
 
     for all_module in ALL_MODULES:
-        importlib.import_module("WEREWOLF_DEMON_STRING.modules." + all_module)
+        importlib.import_module("WEREWOLF_DEMON_STRING_BOT.modules." + all_module)
 
     LOGGER.info(f"@{Anony.username} Started.")
     await idle()
