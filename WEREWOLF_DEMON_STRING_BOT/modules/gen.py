@@ -32,8 +32,8 @@ from telethon.tl.functions.channels import JoinChannelRequest
 from pyromod.listen.listen import ListenerTimeout
 
 from config import SUPPORT_CHAT
-from WEREWOLF_DEMON_STRING import Anony
-from WEREWOLF_DEMON_STRING.utils import retry_key
+from WEREWOLF_DEMON_STRING_BOT import Anony
+from WEREWOLF_DEMON_STRING_BOT.utils import retry_key
 
 
 async def gen_session(
