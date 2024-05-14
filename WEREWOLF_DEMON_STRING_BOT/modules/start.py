@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from WEREWOLF_DEMON_STRING import Anony
-from WEREWOLF_DEMON_STRING.utils import add_served_user, keyboard
+from WEREWOLF_DEMON_STRING_BOT import Anony
+from WEREWOLF_DEMON_STRING_BOT.utils import add_served_user, keyboard
 
 
 @Anony.on_message(filters.command("start") & filters.private & filters.incoming)
