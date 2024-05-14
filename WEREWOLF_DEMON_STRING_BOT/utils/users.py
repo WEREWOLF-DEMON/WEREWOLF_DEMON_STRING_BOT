@@ -1,4 +1,4 @@
-from WEREWOLF_DEMON_STRING import db
+from WEREWOLF_DEMON_STRING_BOT import db
 
 usersdb = db.users
 
